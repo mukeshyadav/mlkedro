@@ -1,0 +1,1 @@
+docker run --rm -v $(pwd)/src:/code/python -w /code/python -e "prod_name=SE4AI" -e "product_version_name=1.0" -e "sonar_fortify_ssc_appversion=SE4AI:0.0.1"  -e "exclude=/tests/**" -e "python_version=3.7" registry.mckinsey.com/fortify/python:latest

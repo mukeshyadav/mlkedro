@@ -1,0 +1,1 @@
+docker run  -v $(pwd):/code/python -v $(pwd):/home/go/.sonar -w /code/python -e HOME=/code/python  artifacts.intranet.mckinsey.com/build-tools/sonarscanner:3.2
